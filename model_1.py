@@ -2,10 +2,7 @@ import pandas as pd # type: ignore
 from sklearn.tree import DecisionTreeClassifier # type: ignore
 import joblib
 
-
 cars_data = pd.read_csv('cars.csv')
-
-
 
 X = cars_data.drop(columns=['vehicle_type']).values # Imput Data
 
