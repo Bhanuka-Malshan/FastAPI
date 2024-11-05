@@ -1,6 +1,6 @@
 numpy==1.26.0  # Compatible with scikit-learn <2.0 and pandas requiring >=1.26.0
 packaging==24.1
-python-3.10.12
+pandas==1.5.3
 pydantic==2.8.2
 pydantic_core==2.20.1
 python-dateutil==2.9.0.post0
