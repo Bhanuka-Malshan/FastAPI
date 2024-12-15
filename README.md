@@ -23,6 +23,8 @@ This project is a simple machine learning-based API that predicts vehicle types 
 ├── Procfile               # Defines the command to run the app on Heroku 📄
 ├── README.md              # Project documentation 📜
 
+```
+
 ## ⚙️ Setup and Installation
 1 Clone the repository:
 
