@@ -37,8 +37,7 @@ git clone <repository-url>
 3 Run Locally: Start the FastAPI server locally:
 - uvicorn FastAPI:app --reload
 
-4 Access API Documentation: Open the browser and go to:
-- http://127.0.0.1:8000/docs 📚
+4 Access API Documentation: Open the browser and go.
 
 ## 📊 Dataset
 - The cars.csv file is used to train the Decision Tree Classifier. The dataset includes user attributes like age and gender and maps them to a vehicle_type output. 🚗
