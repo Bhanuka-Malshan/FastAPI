@@ -29,50 +29,50 @@ This project is a simple machine learning-based API that predicts vehicle types 
 1 Clone the repository:
 
 git clone <repository-url>
-cd <repository-folder>
+- cd <repository-folder>
 
 2 Install dependencies: Ensure you have Python installed (3.8 or later) and run:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3 Run Locally: Start the FastAPI server locally:
-uvicorn FastAPI:app --reload
+- uvicorn FastAPI:app --reload
 
 4 Access API Documentation: Open the browser and go to:
-http://127.0.0.1:8000/docs 📚
+- http://127.0.0.1:8000/docs 📚
 
 ## 📊 Dataset
-The cars.csv file is used to train the Decision Tree Classifier. The dataset includes user attributes like age and gender and maps them to a vehicle_type output. 🚗
+- The cars.csv file is used to train the Decision Tree Classifier. The dataset includes user attributes like age and gender and maps them to a vehicle_type output. 🚗
 
 ## 🚀 Deploying to Heroku
 1 Install Heroku CLI: Follow the installation guide here. 🛠️
 2 Login to Heroku:
-heroku login
+- heroku login
 
 2 Create a Heroku App:
-heroku create <app-name>
+- heroku create <app-name>
 
 3 Add a Git Remote:
-heroku git:remote -a <app-name>
+- heroku git:remote -a <app-name>
 
 4 Add a Git Remote:
 5 Deploy to Heroku: Ensure Procfile is configured correctly:
 
 ## 📡 API Endpoints
-POST /predict
-Description: Predict the vehicle type based on user input. 🚗
-Request Body
+1. POST /predict
+2. Description: Predict the vehicle type based on user input. 🚗
+3. Request Body
 
 ## 📋 Dependencies
-FastAPI: Web framework for building APIs. 🌐
-Scikit-learn: Machine learning library for model training. 📚
-Pandas: For data manipulation and analysis. 📊
-Uvicorn: ASGI server for serving FastAPI applications. ⚡
-Pydantic: For input validation. ✅
+1. FastAPI: Web framework for building APIs. 🌐
+2. Scikit-learn: Machine learning library for model training. 📚
+3. Pandas: For data manipulation and analysis. 📊
+4. Uvicorn: ASGI server for serving FastAPI applications. ⚡
+5. Pydantic: For input validation. ✅
 
 ## 🔮 Future Improvements
-Add more features (e.g., income, location) to enhance prediction accuracy. 📈
-Use a more advanced machine learning model like Random Forest or Gradient Boosting. 🌳
-Implement a database to store user queries and model predictions. 🗄️
+1. Add more features (e.g., income, location) to enhance prediction accuracy. 📈
+2. Use a more advanced machine learning model like Random Forest or Gradient Boosting. 🌳
+3. Implement a database to store user queries and model predictions. 🗄️
 
 
 
