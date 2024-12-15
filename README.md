@@ -54,7 +54,25 @@ heroku create <app-name>
 3 Add a Git Remote:
 heroku git:remote -a <app-name>
 
+4 Add a Git Remote:
+5 Deploy to Heroku: Ensure Procfile is configured correctly:
 
+## 📡 API Endpoints
+POST /predict
+Description: Predict the vehicle type based on user input. 🚗
+Request Body
+
+## 📋 Dependencies
+FastAPI: Web framework for building APIs. 🌐
+Scikit-learn: Machine learning library for model training. 📚
+Pandas: For data manipulation and analysis. 📊
+Uvicorn: ASGI server for serving FastAPI applications. ⚡
+Pydantic: For input validation. ✅
+
+## 🔮 Future Improvements
+Add more features (e.g., income, location) to enhance prediction accuracy. 📈
+Use a more advanced machine learning model like Random Forest or Gradient Boosting. 🌳
+Implement a database to store user queries and model predictions. 🗄️
 
 
 
